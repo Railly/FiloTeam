@@ -13,7 +13,8 @@ Se usarán para los personas de las visitas guiadas y para las muestras de las p
 Las filas representarán el N° de experimento realizado y las columnas, los distintos tipos de materiales necesarios para dicho experimento.
 ### Listas Enlazadas
 Listas enlazadas de plantas (2 o 3 plantas a cruzarse), cada elemento de esta, represetna una nueva cabecera para otra lista enlazada con las variantes obtenidas.
-![enter image description here](https://github.com/Railly/FiloTeam/blob/master/img/ListaEnlazada.png)
+
+![Lista Enlazada](https://github.com/Railly/FiloTeam/blob/master/img/ListaEnlazada.png)
 ### Pilas
 Estas representarán los expendientes ubicados en un almacén físico, de esta manera podremos saber la úbicación exacta de cada uno de ellos.
 ### Colas
