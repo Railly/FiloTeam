@@ -12,7 +12,7 @@ Se usarán para los personas de las visitas guiadas y para las muestras de las p
 ### Arreglos Bidimensionales
 Las filas representarán el N° de experimento realizado y las columnas, los distintos tipos de materiales necesarios para dicho experimento.
 ### Listas Enlazadas
-Listas enlazadas de plantas (2 o 3 plantas a cruzarse), cada elemento de esta, represetna una nueva cabecera para otra lista enlazada con las variantes obtenidas.
+Listas enlazadas de plantas (2 o 3 plantas a cruzarse), cada elemento de esta, representa una nueva cabecera para otra lista enlazada con las variantes obtenidas.
 
 ![Lista Enlazada](https://github.com/Railly/FiloTeam/blob/master/img/ListaEnlazada.png)
 ### Pilas
