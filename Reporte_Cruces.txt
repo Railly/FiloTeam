@@ -1,0 +1,8 @@
+
+Mundo Novo es un cruce entre Tipica y Borbón. Esta posee una productividad media,
+tiene un proceso de maduración intermedia, no tiene comportamiento bienal, tiene una semilla mediana,
+crece aproximadamente unos 3.0 metros. Sin embargo, no posee resistencia a la plaga de la roya.
+
+Catuai es un cruce entre Mundo Novo y Caturra. Esta posee una productividad alta,
+tiene un proceso de maduración tardía, no tiene comportamiento bienal, tiene una semilla mediana,
+crece aproximadamente unos 2.25 metros. Sin embargo, no posee resistencia a la plaga de la roya.
