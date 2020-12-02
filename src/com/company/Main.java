@@ -68,6 +68,15 @@ public class Main {
         expedientes.desapilar();
         expedientes.desapilar();
         expedientes.mostrar();
+        //Creacion de Cola
+        Cola colaCruce = new Cola();
+        colaCruce.encolar(mundoNovo);
+        colaCruce.encolar(catuai);
+        colaCruce.encolar(caturra);
+        colaCruce.imprimir();
+        System.out.println("\nLuego de desencolar");
+        colaCruce.desencolar();
+        colaCruce.imprimir();
         //Cerrando buffers de escritura
         pw_borbon.close();
         pw_tipica.close();
