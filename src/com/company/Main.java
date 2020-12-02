@@ -77,6 +77,8 @@ public class Main {
         System.out.println("\nLuego de desencolar");
         colaCruce.desencolar();
         colaCruce.imprimir();
+        System.out.println("\nCima: ");
+        System.out.println(colaCruce.cima().getNombre());
         //Cerrando buffers de escritura
         pw_borbon.close();
         pw_tipica.close();

@@ -20,11 +20,11 @@ public class Cola {
 
     public void encolar(PlantaCafe especie) {
         NodoLista nuevo = new NodoLista(especie);
-        if(estaVacia()) {
+        if(estaVacia())
             primero = nuevo;
-        } else {
+        else
             ultimo.siguiente = nuevo;
-        }
+
         ultimo = nuevo;
         tamanio++;
     }
@@ -46,6 +46,17 @@ public class Cola {
             especie.altura = 0.0f;
         }
         return  especie;
+    }
+
+    public PlantaCafe cima() {
+        PlantaCafe especie = primero.especieCafe;
+        if(estaVacia()) {
+            System.out.println("Cola vacía");
+            especie.nombre = "";
+            especie.ascendienteDirecto = "";
+            especie.altura = 0.0f;
+        }
+        return especie;
     }
 
     public void imprimir() {
