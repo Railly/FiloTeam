@@ -25,6 +25,10 @@ public class Main {
         PrintWriter pw_cruces = new PrintWriter(new FileWriter(Fcruces));
         //Creacion de Array Unidimensional de Listas
         ListaEnlazada[] especies = new ListaEnlazada[3];
+        //Creacion de Array Bidimensional 
+        Arreglo bid= new Arreglo(3,4);
+        //Mostrar experimentos
+        bid.Mostrar();
         //Creación de Plantas
         Tipica tipica = new Tipica();
         Borbon borbon = new Borbon();
