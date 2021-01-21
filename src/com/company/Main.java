@@ -23,6 +23,8 @@ public class Main {
         PrintWriter pw_tipica = new PrintWriter(new FileWriter(Ftipica));
         PrintWriter pw_caturra = new PrintWriter(new FileWriter(Fcaturra));
         PrintWriter pw_cruces = new PrintWriter(new FileWriter(Fcruces));
+        //Creacion de Lista Enlazada Global
+        ListaEnlazada global = new ListaEnlazada();
         //Creacion de Array Unidimensional de Listas
         ListaEnlazada[] especies = new ListaEnlazada[3];
         //Creacion de Array Bidimensional 
@@ -83,6 +85,22 @@ public class Main {
         colaCruce.imprimir();
         System.out.println("\nCima: ");
         System.out.println(colaCruce.cima().getNombre());
+        //Creación de Árboles
+        Arabica arabica = new Arabica();
+        ArbolGeneral<PlantaCafe> arbolGeneracional = new ArbolGeneral<PlantaCafe>(arabica);
+        arbolGeneracional.insertar(arabica, tipica);
+        arbolGeneracional.insertar(arabica, borbon);
+        arbolGeneracional.insertar(tipica, mundoNovo);
+        arbolGeneracional.insertar(borbon, mundoNovo);
+        arbolGeneracional.insertar(mundoNovo, catuai);
+        arbolGeneracional.insertar(borbon, caturra);
+        arbolGeneracional.insertar(caturra, catuai);
+        System.out.print("Preorden: "); arbolGeneracional.preOrden(arbolGeneracional.raiz);
+        System.out.println("");
+        System.out.print("Postorden: "); arbolGeneracional.postOrden(arbolGeneracional.raiz);
+        System.out.println("");
+        System.out.print("Inorden: "); arbolGeneracional.inOrden(arbolGeneracional.raiz);
+
         //Cerrando buffers de escritura
         pw_borbon.close();
         pw_tipica.close();
